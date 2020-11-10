@@ -397,25 +397,20 @@ footer p {
 		padding: 11px 10px;
 	}
 	.button .transfer {
-		margin-bottom: 5px;
 		width: 100px;
 		height: 40px;
-		border-radius: 10px;
-		text-decoration: none;
-		background: rgba(255, 255, 255, 0.2);
+		position: relative;
 	}
 	.button .topup {
-		background: rgba(255, 255, 255, 0.2);
-		border: 1px solid white;
 		width: 100px;
+		position: relative;
 		height: 40px;
-		border-radius: 10px;
-		text-decoration: none;
-		margin-top: 10px;
 	}
 	.button p {
+		position: absolute;
 		color: white;
-		padding: 4px;
+		bottom: -18px;
+		left: 24px;
 		font-size: 14px;
 	}
 	footer .coba {
