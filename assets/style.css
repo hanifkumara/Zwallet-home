@@ -360,3 +360,65 @@ footer p {
 		order: 1;
 	}
 }
+
+@media screen and (max-width: 390px) {
+	.profile-bar {
+		margin-left: -60px;
+	}
+	.graphic-image {
+		margin: 0;
+	}
+	.graphic-image .icon {
+		margin-left: 32px;
+	}
+	.day p {
+		margin: 0 8px;
+		color: #8f8f8f;
+		font-size: 15px;
+	}
+	.day {
+		margin: 0 13px;
+		margin-bottom: 15px;
+	}
+	.balance {
+		padding: 8px 0;
+		padding-right: 0;
+		height: fit-content;
+	}
+	.nominal .money {
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 5px;
+	}
+	.nominal p {
+		font-size: 12px;
+	}
+	.nominal {
+		padding: 11px 10px;
+	}
+	.button .transfer {
+		margin-bottom: 5px;
+		width: 100px;
+		height: 40px;
+		border-radius: 10px;
+		text-decoration: none;
+		background: rgba(255, 255, 255, 0.2);
+	}
+	.button .topup {
+		background: rgba(255, 255, 255, 0.2);
+		border: 1px solid white;
+		width: 100px;
+		height: 40px;
+		border-radius: 10px;
+		text-decoration: none;
+		margin-top: 10px;
+	}
+	.button p {
+		color: white;
+		padding: 4px;
+		font-size: 14px;
+	}
+	footer .coba {
+		text-align: center;
+	}
+}
